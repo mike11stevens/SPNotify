@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Control Id="GlobalNavigation"
+           Sequence="90"
+           ControlSrc="~/_controltemplates/SPNotify.Banner/Banner.ascx" />
+</Elements>

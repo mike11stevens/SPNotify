@@ -1,3 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" Id="bee4a7eb-535d-47ea-aa62-073a16db03c5" solutionId="bee4a7eb-535d-47ea-aa62-073a16db03c5" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="SPNotify.Banner">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="bee4a7eb-535d-47ea-aa62-073a16db03c5" solutionId="bee4a7eb-535d-47ea-aa62-073a16db03c5" resetWebServer="false" name="SPNotify.Banner" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="cb1a2937-a5de-4f81-91d7-4964382fb517" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="21e6c204-360e-4e5a-a2b8-ca4db1372188" />
+    <projectItemReference itemId="053d66d6-e273-4d25-a60e-3144b642e83f" />
+  </projectItems>
 </package>
