@@ -1,3 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" Id="28ecffa4-dc43-46c3-80df-4e35ecab3f17" solutionId="28ecffa4-dc43-46c3-80df-4e35ecab3f17" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="SPNotify.UserAgreement">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="28ecffa4-dc43-46c3-80df-4e35ecab3f17" solutionId="28ecffa4-dc43-46c3-80df-4e35ecab3f17" resetWebServer="false" name="SPNotify.UserAgreement" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6b92b2d2-b590-4bf2-9775-ccc12db1fdc7" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="0f6ca47a-f6a4-4310-8076-3a4aea055a45" />
+    <projectItemReference itemId="9733b256-c958-4ada-a1b7-e868a4606517" />
+    <projectItemReference itemId="9fc7ae70-0df9-4908-b846-f1fb25b56b86" />
+  </projectItems>
 </package>

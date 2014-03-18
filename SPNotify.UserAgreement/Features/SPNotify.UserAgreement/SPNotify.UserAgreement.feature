@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="60afcc9c-4a5c-4a1d-9363-cc581784eb3b" description="SPWebApplication scoped end user agreement modal form.  Configurable with property bag values: [&quot;UserAgreementTitle&quot;],[&quot;UserAgreementStyle&quot;],[&quot;UserAgreementHtml&quot;],[&quot;UserAgreementLinks&quot;],[&quot;UserAgreementExpirationDays&quot;]" featureId="60afcc9c-4a5c-4a1d-9363-cc581784eb3b" imageUrl="" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.3426d310-a745-4e1e-b8c8-5b720a1b9462.FullName$" scope="WebApplication" solutionId="00000000-0000-0000-0000-000000000000" title="SPNotify UserAgreement" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <projectItems>
+    <projectItemReference itemId="da99e01f-64b5-4867-b32f-8d5a84aa1712" />
+  </projectItems>
+</feature>
