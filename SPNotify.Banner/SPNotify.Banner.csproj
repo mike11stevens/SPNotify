@@ -56,6 +56,9 @@
     <Compile Include="CONTROLTEMPLATES\SPNotify.Banner\Banner.ascx.designer.cs">
       <DependentUpon>Banner.ascx.cs</DependentUpon>
     </Compile>
+    <Compile Include="Features\SPNotify.Banner\SPNotify.EventReceiver.cs">
+      <DependentUpon>SPNotify.Banner.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

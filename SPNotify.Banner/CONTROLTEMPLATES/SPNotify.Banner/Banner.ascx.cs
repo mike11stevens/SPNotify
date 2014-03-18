@@ -25,23 +25,6 @@ namespace SPNotify.Banner.CONTROLTEMPLATES.SPNotify.Banner
                     litBannerHtml.Text = strHTML;
                 }
 
-                //if (spWebApp.Properties["StatusAlertTitle"].ToString() != "")
-                //{
-
-                //    string strTitle = spWebApp.Properties["StatusAlertTitle"].ToString();
-                //    string strMessage = spWebApp.Properties["StatusAlertMessage"].ToString();
-                //    string strColor = spWebApp.Properties["StatusAlertcolor"].ToString().ToLower();
-
-                //    string strAlert = "<script type='text/javascript' language='javascript'>"
-                //        + "ExecuteOrDelayUntilScriptLoaded(AddCustomStatus, 'sp.js'); "
-                //        + "_spBodyOnLoadFunctionNames.push('AddCustomStatus'); "
-                //        + "function AddCustomStatus() { "
-                //        + "statusId = SP.UI.Status.addStatus(\'" + strTitle + "\', \'" + strMessage + "', true); "
-                //        + "SP.UI.Status.setStatusPriColor(statusId, \'" + strColor + "\'); return statusId; } "
-                //        + "</script>";
-
-                //    litStatusAlert.Text = strAlert;
-                //}
             }
             catch (Exception ex)
             {

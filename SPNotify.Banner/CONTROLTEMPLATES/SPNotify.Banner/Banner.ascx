@@ -10,6 +10,3 @@
 
 <asp:Literal ID="litBannerStyle" runat="server" Text=""></asp:Literal>
 <asp:Literal ID="litBannerHtml" runat="server" Text="" Visible="false"></asp:Literal>
-
-<!-- <SharePoint:ScriptLink ID="ScriptLink1" Name="sp.js" runat="server" OnDemand="true" Localizable="false" /> -->
-<!-- <asp:Literal ID="litStatusAlert" runat="server" Text=""></asp:Literal> -->
