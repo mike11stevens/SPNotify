@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d4aa1013-27e3-4556-9dae-5a717cb6020e" description="SPWebApplication scoped delegate control that adds &quot;alerts&quot; in the standard SharePoint 2010 status bar using configurable property bag values:  [&quot;AlertTitle&quot;],[&quot;AlertMessage&quot;],[&quot;AlertColor&quot;]" featureId="d4aa1013-27e3-4556-9dae-5a717cb6020e" imageUrl="" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.e783210b-a7cb-4856-9f18-602f488e0298.FullName$" scope="WebApplication" solutionId="00000000-0000-0000-0000-000000000000" title="SPNotify Alert" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <projectItems>
+    <projectItemReference itemId="cc318022-7a58-4d23-a8cd-98070b30c6c6" />
+  </projectItems>
+</feature>

@@ -2,5 +2,5 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Control Id="GlobalNavigation"
            Sequence="90"
-           ControlSrc="~/_controltemplates/SPNotify.Banner\Banner.ascx" ></Control>
+           ControlSrc="~/_controltemplates/SPNotify.Banner/Banner.ascx" ></Control>
 </Elements>

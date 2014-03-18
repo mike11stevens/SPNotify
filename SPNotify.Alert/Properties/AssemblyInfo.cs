@@ -6,11 +6,11 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SPNotify")]
+[assembly: AssemblyTitle("SPNotify.Alert")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SPNotify")]
+[assembly: AssemblyProduct("SPNotify.Alert")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +21,7 @@ using System.Security;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("edd5df04-ab1a-4879-b5cc-1de5695ef675")]
+[assembly: Guid("1865a435-7ba1-4483-9244-ca32fecff8e4")]
 
 // Version information for an assembly consists of the following four values:
 //

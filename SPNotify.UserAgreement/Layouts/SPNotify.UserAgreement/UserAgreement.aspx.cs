@@ -34,7 +34,7 @@ namespace SPNotify.UserAgreement.Layouts.SPNotify.UserAgreement
                     litUserAgreementLink.Text = strHTML;
 
                     //set cookie expiration days
-                    strHTML = String.Format("<a href='' class='btn btn-primary' style='color:#fff;' onclick='javascript:createCookie('SPNotify_UserAgreement', 'accepted'," + spWebApp.Properties["UserAgreementExpirationDays"].ToString() + @"); window.frameElement.cancelPopUp(); return false;'>I Accept</a>");
+                    strHTML = String.Format("<a href=\"\" class=\"btn btn-primary\" style=\"color:#fff;\" onclick=\"javascript:createCookie('SPNotify_UserAgreement', 'accepted'," + spWebApp.Properties["UserAgreementExpirationDays"].ToString() + "); window.frameElement.cancelPopUp(); return false;\">I Accept</a>");
                     litUserAgreementExpirationDays.Text = strHTML;
 
                 }

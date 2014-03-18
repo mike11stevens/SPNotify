@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EDD5DF04-AB1A-4879-B5CC-1DE5695EF675}</ProjectGuid>
+    <ProjectGuid>{1865A435-7BA1-4483-9244-CA32FECFF8E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SPNotify</RootNamespace>
-    <AssemblyName>SPNotify</AssemblyName>
+    <RootNamespace>SPNotify.Alert</RootNamespace>
+    <AssemblyName>SPNotify.Alert</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -43,24 +43,55 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CONTROLTEMPLATES\SPNotify.Alert\Alert.ascx.cs">
+      <DependentUpon>Alert.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\SPNotify.Alert\Alert.ascx.designer.cs">
+      <DependentUpon>Alert.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\SPNotify.Alert\SPNotify.EventReceiver.cs">
+      <DependentUpon>SPNotify.Alert.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AlertElement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cc318022-7a58-4d23-a8cd-98070b30c6c6}</SharePointProjectItemId>
+    </None>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8315c9e6-1492-4fc3-9bc3-1a9c65c23680}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\SPNotify.Alert\SPNotify.Alert.feature">
+      <FeatureId>{172d0916-7c8e-46ca-8834-b291379facf6}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{05c516b2-8a14-4a7f-9001-a7ac7e8f8694}</SharePointProjectItemId>
+    </None>
+    <None Include="Images\SPNotify.Alert\CustomFeature.pdn" />
     <None Include="key.snk" />
     <None Include="Package\Package.package">
-      <PackageId>{19f32424-424b-4c15-82d8-5f54af1882cc}</PackageId>
+      <PackageId>{41ae1fa5-378f-459f-a309-d15d7f984325}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Content Include="AlertElement\Elements.xml" />
+    <Content Include="CONTROLTEMPLATES\SPNotify.Alert\Alert.ascx" />
+    <Content Include="Features\SPNotify.Alert\SPNotify.Alert.Template.xml">
+      <DependentUpon>SPNotify.Alert.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\CustomFeature.gif" />
+    <Content Include="Images\SPNotify.Alert\CustomFeature.gif" />
+    <Content Include="Images\SPNotify.Alert\GenericFeature.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
