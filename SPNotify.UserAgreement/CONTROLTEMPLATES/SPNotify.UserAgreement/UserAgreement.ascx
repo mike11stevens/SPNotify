@@ -12,18 +12,20 @@
 
 <script language="javascript" type="text/javascript">
 
-    alert("hello world.");
-
     ExecuteOrDelayUntilScriptLoaded(UserAgreement, "sp.js");
     _spBodyOnLoadFunctionNames.push("UserAgreement");
 
     function UserAgreement() {
-        val = readCookie('SPNotify_UserAgreement');
-        if (val != 'accepted') {
-            var options = { url: "/_layouts/SPNotify.UserAgreement/UserAgreement.aspx", title: "", width: 800, autoSize: true, showClose: false };
-            SP.UI.ModalDialog.showModalDialog(options);
-            alert('no valid cookie' + val);
+
+        var pagename = document.location.pathname.match(/[^\/]+$/)[0];
+
+        if (pagename != "UserAgreement.aspx") {
+            val = readCookie('SPNotify_UserAgreement');
+            if (val != 'accepted') {
+                var options = { url: "/_layouts/SPNotify.UserAgreement/UserAgreement.aspx", title: "", width: 800, autoSize: true, showClose: false };
+                SP.UI.ModalDialog.showModalDialog(options);
+            }
+            else { }
         }
-        else { alert('valid cookie' + val); }
     }
 </script>
