@@ -5,9 +5,9 @@ top banner (classification banner), user acceptance modal window (terms and poli
 
 Here are the current SPWebApplication scoped features:
 
-- **[SPNotify.Alert](#spnotifyalert "SPNotify.Alert")**
-- **[SPNotify.Banner](#spnotifybanner "SPNotify.Banner")**
-- **[SPNotify.UserAgreement](#spnotifyuseragreement"SPNotify.UserAgreement")**
+- **[SPNotify.Alert](#spnotify.alert "SPNotify.Alert")**
+- **[SPNotify.Banner](#spnotify.banner "SPNotify.Banner")**
+- **[SPNotify.UserAgreement](#spnotify.useragreement"SPNotify.UserAgreement")**
 
 ![](https://6me80a.sn2.df.livefilestore.com/y2pYVLFwtHZ3rudHA99ZWM4-JobiVzGaDx3OlnLs5-xt2RzkHA5c_5rXLMpJ-uXmlgwb6xSARfWsup4gm0vu1rRSzSmL6cUogc-YJisI9pTSSY/SPNotify.CentralAdmin.png)
 
@@ -15,8 +15,24 @@ Here are the current SPWebApplication scoped features:
 
 ----------
 
-TODO: checkin tested alerts, add description and sample PowerShell for property values
+SPWebApplication scoped delegate control that adds "alerts" in the standard SharePoint 2010 status bar using configurable property bag values:  
 
+![](https://6me80a.sn2.df.livefilestore.com/y2pkZ9SjYv7h38rQ2ttuu_LdxVd5XFSAfUUDjDLOBlxTuob5Bk_9WDtqBHj_Vyz7U42LXXLi_CkQgoUTA-oycu54pg4z83_oWNnfvLA-7PYmkk/SPNotify.Alert.png)
+
+- ["AlertTitle"]
+- ["AlertMessage"]
+- ["AlertColor"]
+
+TODO: checkin tested alerts, add screen shot for alerts
+
+Here is an example of how to set the Alert property bag values using PowerShell:
+
+    $url = 'http://yoururl'
+    $spWebApp = Get-SPWebApplication $url
+    $spWebApp.Properties["AlertTitle"]="IMPORTANT!"
+    $spWebApp.Properties["AlertMessage"]="The sky is falling!"
+    $spWebApp.Properties["AlertColor"]="red"
+    $spWebApp.Update()
 
 ###SPNotify.Banner
 
