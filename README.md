@@ -17,13 +17,11 @@ Here are the current SPWebApplication scoped features:
 
 SPWebApplication scoped delegate control that adds "alerts" in the standard SharePoint 2010 status bar using configurable property bag values:  
 
-![](https://6me80a.sn2.df.livefilestore.com/y2pkZ9SjYv7h38rQ2ttuu_LdxVd5XFSAfUUDjDLOBlxTuob5Bk_9WDtqBHj_Vyz7U42LXXLi_CkQgoUTA-oycu54pg4z83_oWNnfvLA-7PYmkk/SPNotify.Alert.png)
-
 - ["AlertTitle"]
 - ["AlertMessage"]
 - ["AlertColor"]
 
-TODO: checkin tested alerts, add screen shot for alerts
+![](https://6me80a.sn2.df.livefilestore.com/y2pkZ9SjYv7h38rQ2ttuu_LdxVd5XFSAfUUDjDLOBlxTuob5Bk_9WDtqBHj_Vyz7U42LXXLi_CkQgoUTA-oycu54pg4z83_oWNnfvLA-7PYmkk/SPNotify.Alert.png)
 
 Here is an example of how to set the Alert property bag values using PowerShell:
 
