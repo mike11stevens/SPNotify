@@ -5,9 +5,9 @@ top banner (classification banner), user acceptance modal window (terms and poli
 
 Here are the current SPWebApplication scoped features:
 
-- **[SPNotify.Alert](#spnotify.alert "SPNotify.Alert")**
-- **[SPNotify.Banner](#spnotify.banner "SPNotify.Banner")**
-- **[SPNotify.UserAgreement](#spnotify.useragreement"SPNotify.UserAgreement")**
+- **[SPNotify.Alert](#spnotifyalert "SPNotify.Alert")**
+- **[SPNotify.Banner](#spnotifybanner "SPNotify.Banner")**
+- **[SPNotify.UserAgreement](#spnotifyuseragreement"SPNotify.UserAgreement")**
 
 ![](https://6me80a.sn2.df.livefilestore.com/y2pYVLFwtHZ3rudHA99ZWM4-JobiVzGaDx3OlnLs5-xt2RzkHA5c_5rXLMpJ-uXmlgwb6xSARfWsup4gm0vu1rRSzSmL6cUogc-YJisI9pTSSY/SPNotify.CentralAdmin.png)
 
